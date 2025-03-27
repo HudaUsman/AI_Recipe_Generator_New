@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family:'Playfair Display',serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    background-image: url('background3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+/* Header */
+header {
+  /* background: rgba(119,136,153,0.2);
+   backdrop-filter: blur(10px);
+   */
+   color:black;
+   font-size: 24px;
+   padding: 20px;
+  
+   box-sizing: border-box;
+}
+@keyframes slideUp {
+    0% {
+        opacity: 0; 
+        transform: translateY(50px); /* Starts lower */
+    }
+    100% {
+        opacity: 1; 
+        transform: translateY(0); /* Moves to normal position */
+    }
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    animation: slideUp 1.5s ease-out; /* Apply animation */
+}
+.content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -200px;
+}
+p{
+    font-size: 16px;
+    text-align: center;
+    color:white;
+}
+.link-style {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-top: 30px; 
+    display: flex;
+    gap: 15px; 
+    justify-content: center;
+    animation: slideUp 2.5s ease-out;
+    background: #f39c12;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-family: 'Playfair Display',serif;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+    
+}
+.recipe-link, 
+#fetchRecipeBtn {
+    display: inline-block;
+    background: #f39c12;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.recipe-link:hover, 
+#fetchRecipeBtn:hover {
+    background: #e67e22;
+}
+
+.p2 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
