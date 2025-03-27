@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family:'Playfair Display',serif;
     margin: 0;
@@ -17,11 +17,9 @@ body {
     align-items: center;
     }
 
-/* Header */
+
 header {
-  /* background: rgba(119,136,153,0.2);
-   backdrop-filter: blur(10px);
-   */
+ 
    color:black;
    font-size: 24px;
    padding: 20px;
@@ -31,18 +29,18 @@ header {
 @keyframes slideUp {
     0% {
         opacity: 0; 
-        transform: translateY(50px); /* Starts lower */
+        transform: translateY(50px); 
     }
     100% {
         opacity: 1; 
-        transform: translateY(0); /* Moves to normal position */
+        transform: translateY(0); 
     }
 }
 
 h1 {
     font-size: 40px;
     color: white;
-    animation: slideUp 1.5s ease-out; /* Apply animation */
+    animation: slideUp 1.5s ease-out; 
 }
 .content{
     text-align: center;
