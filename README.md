@@ -1,5 +1,5 @@
 # AI_Recipe_Generator
-# Recipe-Generator
+
 Project Status
 This project is currently under development. The Recipe Generator is a web application that allows users to discover recipes based on ingredients, search for specific dishes, and get random recipe suggestions. I am actively working on improving my skills in frontend development and plan to incorporate a basic backend for better functionality.
 
