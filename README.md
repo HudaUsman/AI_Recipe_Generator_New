@@ -1,18 +1,25 @@
-# AI_Recipe_Generator
+AI Recipe Generator
+An interactive recipe recommendation web app that suggests dishes based on user-provided ingredients. Powered by the Spoonacular API, it enables ingredient-based recipe search, random recipe generation, and dish name search with a user-friendly UI.
 
-Project Status
-This project is currently under development. The Recipe Generator is a web application that allows users to discover recipes based on ingredients, search for specific dishes, and get random recipe suggestions. I am actively working on improving my skills in frontend development and plan to incorporate a basic backend for better functionality.
+🚀 Features
+🔍 Search by Ingredients – Get recipes based on available ingredients.
 
-Features
-> Search recipes by ingredients ,
-> Find recipes by dish name ,
-> Get a random recipe suggestion ,
+🎲 Random Recipe Generator – Discover new and exciting recipes with a single click.
 
-Planned Features
-I am working on enhancing the user experience with the following updates:
-> Show Multiple Recipes: Instead of displaying only one recipe, users will see multiple options to choose from ,
-> Next Recipe Option: Users can browse through different recipes if they are not satisfied with the first suggestion 
+🍽️ Search by Dish Name – Find specific recipes by entering a dish name.
 
-Technologies Used
-> Frontend: HTML, CSS, JavaScript
-> API: Spoonacular API (for fetching real-world recipes)
+📖 Detailed Recipe Information – Displays recipe name, ingredients, instructions, and an image.
+
+🛠️ Technologies Used
+Frontend: HTML, CSS, JavaScript
+
+Backend: Node.js, Express
+
+API: Spoonacular API
+
+🎯 How It Works
+Enter ingredients or search for a dish name.
+
+The system fetches recipes from the Spoonacular API.
+
+Displays a list of matching recipes with images, instructions, and ingredients.
