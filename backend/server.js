@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-const fetch = require("node-fetch");  // ✅ Correctly Import `fetch`
+const fetch = require("node-fetch"); 
 const cors = require("cors");
 
 const app = express();
@@ -15,7 +15,7 @@ app.get("/api/recipe/random", async (req, res) => {
         const apiUrl = `https://api.spoonacular.com/recipes/random?apiKey=${API_KEY}`;
         console.log("Fetching from Spoonacular:", apiUrl);
 
-        const response = await fetch(apiUrl);  // ✅ Now `fetch` works
+        const response = await fetch(apiUrl);  
         const data = await response.json();
 
         if (!data || !data.recipes) {
