@@ -1,17 +1,17 @@
 document.getElementById("fetchRecipeBtn").addEventListener("click", fetchRandomRecipe);
 
 function fetchRandomRecipe() {
-    fetch("http://localhost:5000/random-recipe") // Ensure backend is running on port 5000
+    fetch("http://localhost:5000/random-recipe") 
         .then(response => response.json())
         .then(data => {
-            console.log("API Response:", data); // Debugging
+            console.log("API Response:", data); 
             
             if (!data || !data.title) {
                 document.getElementById("randomRecipeResult").innerHTML = "<p>Error fetching recipe. Try again!</p>";
                 return;
             }
 
-            // Construct recipe HTML
+         
             const recipeHTML = `
                 <h2>${data.title}</h2>
                 <img src="${data.image}" alt="${data.title}" style="width: 300px; border-radius: 10px;">
